@@ -1,0 +1,75 @@
+html, body {
+  font-family: system-ui;
+  background-color: #dfd5cf;
+  height: 100%;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu-item {
+  width: 20%;
+  float: left;
+  padding: 1rem 0 0 2rem;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.row {
+  top: 1rem;
+  position: absolute;
+  left: 10rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 0 20px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.vertical-menu {
+  width: 200px;
+  padding: 4rem 0;
+  position: static;
+}
+
+.vertical-menu a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  text-decoration: underline;
+}
+
+.vertical-menu a.active {
+  color: black;
+  font-weight: 600;
+}
